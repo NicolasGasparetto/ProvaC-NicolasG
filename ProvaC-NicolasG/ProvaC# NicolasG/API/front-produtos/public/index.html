@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova A1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prova A1</h1>
+    <section id="categorias">
+        <h2>Categorias</h2>
+        <ul id="categoria-list">
+        </ul>
+        <form id="categoria-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <button type="submit">Cadastrar Categoria</button>
+        </form>
+    </section>
+
+    <section id="tarefas">
+        <h2>Tarefas</h2>
+        <ul id="tarefa-list">
+        </ul>
+        <form id="tarefa-form">
+            <label for="descricao">Descrição:</label>
+            <input type="text" id="descricao" name="descricao">
+            <label for="categoriaId">Categoria:</label>
+            <select id="categoriaId" name="categoriaId">
+            </select>
+            <button type="submit">Cadastrar Tarefa</button>
+        </form>
+    </section>
+
+    <section id="tarefas-naoconcluidas">
+        <h2>Tarefas Não Concluídas</h2>
+        <ul id="tarefa-naoconcluida-list">
+        </ul>
+    </section>
+
+    <section id="tarefas-concluidas">
+        <h2>Tarefas Concluídas</h2>
+        <ul id="tarefa-concluida-list">
+        </ul>
+    </section>
+
+</body>
+</html>
